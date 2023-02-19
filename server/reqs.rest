@@ -1,0 +1,30 @@
+POST http://localhost:3000/postJob
+Content-Type: application/json
+
+{
+    "id": 123,
+    "weight": 100,
+    "volume": 100 
+}
+
+###
+
+POST http://localhost:3000/acceptJob
+Content-Type: application/json
+
+{
+    "id": 123
+}
+
+###
+
+POST http://localhost:3000/confirmJob
+Content-Type: application/json
+
+{
+    "id": 123
+}
+
+###
+
+GET http://localhost:3000/getJobs
